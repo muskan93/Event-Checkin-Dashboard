@@ -37,7 +37,7 @@ This dashboard provides a complete event management workflow:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/muskan93/Event-Checkin-Dashboard.git
 cd event-checkin-dashboard
 
 # Install frontend dependencies
@@ -133,21 +133,33 @@ src/
 server/                   # Express mock API
 ```
 
-## Deployment
-
-### Frontend (Vercel / Netlify)
-
-1. Build command: `npm run build`
-2. Output directory: `dist`
-3. Set environment variable for API URL if deploying backend separately
-
-### Backend
-
-Deploy the `server/` folder to Railway, Render, or any Node.js host. Update the Vite proxy or set `VITE_API_URL` for production.
 
 ## Screenshots
 
-> Add screenshots of Login, Dashboard, Customers, QR Scanner, Booth Assignment, and Status Update pages after running the app.
+1. Login Page
+<img width="1920" height="1080" alt="Login Page" src="https://github.com/user-attachments/assets/eda09b42-6f58-4544-b6fd-51ad16e3607e" />
+
+
+2. Dashboard Page
+<img width="1919" height="1006" alt="Dashboard Page" src="https://github.com/user-attachments/assets/8d334ec5-6270-49cf-ba88-220682bf3dce" />
+
+
+3. Customer Management Page
+<img width="1914" height="1012" alt="Customer Management" src="https://github.com/user-attachments/assets/ea0c2256-e937-4ab2-9c4f-72c7ba9b605b" />
+
+
+4. QR Code Scanner Page
+<img width="1914" height="1000" alt="QR Scanner Page" src="https://github.com/user-attachments/assets/374509ba-cab0-47de-92ab-2f2fabcf3c41" />
+
+
+5. Booth Assignment Page
+<img width="1919" height="1005" alt="Booth Assignment Page" src="https://github.com/user-attachments/assets/d6813769-26d3-46cd-833b-a51547359f32" />
+
+
+6. Customer Status Update Page
+<img width="1918" height="1006" alt="Status Update Page" src="https://github.com/user-attachments/assets/550fc704-afa7-430b-b614-0e49e1bc9a00" />
+
+
 
 ## License
 
